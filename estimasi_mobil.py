@@ -1,4 +1,4 @@
-import pickle
+import pickle5 as pickle
 import streamlit as st
 
 model = pickle.load(open('estimasi_mobil.sav', 'rb'))
